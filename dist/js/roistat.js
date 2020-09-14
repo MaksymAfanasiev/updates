@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .querySelector("button, input[type=button], input[type=submit]")
       .addEventListener("click", function () {
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "roistat.php", true);
+        xhr.open("POST", "/roistat", true);
         // xhr.setRequestHeader('Content-type', 'text/html; charset=utf-8');
 
         var data = new FormData();
